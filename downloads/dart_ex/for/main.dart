@@ -23,4 +23,3 @@ main(){
   // for 迴圈累加完成後, 列出最後訊息
   print('從 $start 累加至 $end 的總數值為 $sum');
 }
-© 2019 GitHub, Inc.
