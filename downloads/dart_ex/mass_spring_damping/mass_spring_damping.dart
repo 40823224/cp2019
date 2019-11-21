@@ -26,7 +26,11 @@ rungeKutta(t0, x0, v0, t, h) {
   double x = x0;
   // 宣告 v 為雙浮點數, 且設為起始值 v0
   double v = v0;
-  print(" ${t0.toStringAsFixed(3)}\t ${x.toStringAsFixed(3)}\t ${v.toStringAsFixed(3)}\t");
+
+  // 模擬運算前, 列出起始條件
+  // 只列到小數點第三位, 時間、位移與速度以 \t  隔開, \t 代表插入 tab 符號, 可將資料複製到 Excel 進行繪圖
+  print("${t0.toStringAsFixed(3)} \t ${x.toStringAsFixed(3)} \t ${v.toStringAsFixed(3)}");
+
   // 利用已知的 t0, x0, t 終點值與步階增量值 h, 迭代求 x 對應值
   // 索引值 i 將每次增量 1, 從 i=1 執行 for 環圈至 i=n
   for (int i = 1; i <= n; i++) {
@@ -43,13 +47,14 @@ rungeKutta(t0, x0, v0, t, h) {
     // 利用上述四個變數值求此步階增量後的對應 x 值
     x = x + (1.0 / 6.0) * (xk1 + 2 * xk2 + 2 * xk3 + xk4);
     v = v + (1.0 / 6.0) * (vk1 + 2 * vk2 + 2 * vk3 + vk4);
-    
     // 每次 for 迴圈執行最後, 準備計算下一個步階增量後的 x 對應值
     // t 起始值配合步階增量值 h, 進行增量
     t0 = t0 + h;
-    // 只列到小數點第三位
-    print(" ${t0.toStringAsFixed(3)}\t ${x.toStringAsFixed(3)}\t ${v.toStringAsFixed(3)}\t");
+    // 列出各模擬運算時間點所得到的結果
+    // 只列到小數點第三位, 時間、位移與速度以 \t  隔開, \t 代表插入 tab 符號, 可將資料複製到 Excel 進行繪圖
+  print("${t0.toStringAsFixed(3)} \t ${x.toStringAsFixed(3)} \t ${v.toStringAsFixed(3)}");
   }
+
   // 完成 for 迴圈迭代後, 傳回與 t 終點值對應的 x 值
   return [x, v];
 }
@@ -58,9 +63,10 @@ rungeKutta(t0, x0, v0, t, h) {
 dxdt(t, x, v) {
   return v;
 }
+
 // dx/dt = v, dv/dt = (f-kx-bv)/m
-dvdt(t,x, v) {
-  return (f - k*x - b*v)/m;
+dvdt(t, x, v) {
+  return (f - k * x - b * v) / m;
 }
 
 // 定義 main() 主函式內容, 目的在利用 rungeKutta 函式
@@ -71,7 +77,7 @@ main() {
   num t0 = 0;
   num x0 = 1;
   num v0 = 0;
-  num t = 10;
+  num t = 5;
   double h = 0.1;
   rungeKutta(t0, x0, v0, t, h);
 }
