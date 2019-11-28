@@ -138,7 +138,7 @@ init_mathjax();
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li class='has-children'><a href='每週進度.html'>每週進度</a><ul class='dropdown'><li><a href='w2-網路架構、倉儲設定與網站編輯.html'>w2-網路架構、倉儲設定與網站編輯</a><li><a href='w3-在 Dartpad 引入 Git 中的 Dart 程式.html'>w3-在 Dartpad 引入 Git 中的 Dart 程式</a><li><a href='w4-在 CMSiMDE 頁面中加入圖片.html'>w4-在 CMSiMDE 頁面中加入圖片</a><li><a href='w6- for 迴圈程式範例、放入倉儲及 button 標註.html'>w6- for 迴圈程式範例、放入倉儲及 button 標註</a><li><a href='w7-利用 for 迴圈與函式定義呼叫解常微分方程式.html'>w7-利用 for 迴圈與函式定義呼叫解常微分方程式</a><li><a href='w8- Pelican Blog 網誌設定並加入 disqus 討論系統.html'>w8- Pelican Blog 網誌設定並加入 disqus 討論系統</a><li><a href='w9-期中考.html'>w9-期中考</a><li><a href='w10-分組任務.html'>w10-分組任務</a><li><a href='w11-攝氏與華氏轉換程式.html'>w11-攝氏與華氏轉換程式</a></li>
+                     <li><a href='About.html'>About</a><li class='has-children'><a href='期中考進度.html'>期中考進度</a><ul class='dropdown'><li><a href='w2-網路架構、倉儲設定與網站編輯.html'>w2-網路架構、倉儲設定與網站編輯</a><li><a href='w3-在 Dartpad 引入 Git 中的 Dart 程式.html'>w3-在 Dartpad 引入 Git 中的 Dart 程式</a><li><a href='w4-在 CMSiMDE 頁面中加入圖片.html'>w4-在 CMSiMDE 頁面中加入圖片</a><li><a href='w6- for 迴圈程式範例、放入倉儲及 button 標註.html'>w6- for 迴圈程式範例、放入倉儲及 button 標註</a><li><a href='w7-利用 for 迴圈與函式定義呼叫解常微分方程式.html'>w7-利用 for 迴圈與函式定義呼叫解常微分方程式</a><li><a href='w8- Pelican Blog 網誌設定並加入 disqus 討論系統.html'>w8- Pelican Blog 網誌設定並加入 disqus 討論系統</a><li><a href='w9-期中考.html'>w9-期中考</a></li></ul><li class='has-children'><a href='期末考進度.html'>期末考進度</a><ul class='dropdown'><li><a href='w10-分組任務.html'>w10-分組任務</a></li>
                       </ul>
                 </nav>
               </div>
@@ -149,20 +149,20 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content">w9-期中考 << <a href='w9-期中考.html'>Previous</a> <a href='w11-攝氏與華氏轉換程式.html'>Next</a> >> w11-攝氏與華氏轉換程式<br /><h1>w10-分組任務</h1>
+    <div id="tipue_search_content">期末考進度 << <a href='期末考進度.html'>Previous</a> <br /><h1>w10-分組任務</h1>
 <script>
 function getDart(dirname){
-    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823224&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823224&gh_repo=cp2019bg6&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
     document.getElementById("iframe").src = source ;
 }
 
 function getHtmlDart(dirname){
-    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823224&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823224&gh_repo=cp2019bg6&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
 document.getElementById("iframe").src = source ;
 }
 
 function getFlutter(dirname){
-    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823224&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823224&gh_repo=cp2019bg6&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
 document.getElementById("iframe").src = source ;
 }
 
@@ -178,14 +178,14 @@ document.getElementById("iframe").height = 600 ;
 </script>
 <!-- 取 Dart 程式的按鈕 -->
 <h4>純 Dart 程式</h4>
-<p><button onclick="getDart('hello')">Hello</button> <button onclick="getDart('for')">For Loop</button> <button onclick="getDart('sum')">Sum</button> <button onclick="getDart('runge_kutta')">Runge-Kutta</button> <button onclick="getDart('rk_ex1')">RK ex1</button> <button onclick="getDart('mass_spring_damping')">Mass Spring Damping</button></p>
+<p><button onclick="getDart('hello')">Hello</button> <button onclick="getDart('for')">For Loop</button> <button onclick="getDart('sum')">Sum</button> <button onclick="getDart('runge_kutta')">Runge-Kutta</button> <button onclick="getDart('rk_ex1')">RK ex1</button> <button onclick="getDart('mass_spring_damping')">Mass Spring Damping</button> <button onclick="getDart('cf')">temperature</button></p>
 <h4>Html 程式</h4>
 <p><button onclick="getHtmlDart('roc_flag')">ROC Flag</button> <button onclick="getHtmlDart('grid')">Grid</button> <button onclick="getHtmlDart('xyplot')">X-Y Plot</button> <button onclick="getHtmlDart('slithery')">Slithery</button></p>
 <h4>Flutter 程式</h4>
 <p><button onclick="getFlutter('flutter1')">Flutter1</button> <button onclick="getFlutter('flutter2')">Flutter2</button> <button onclick="getFlutter('flutter3')">Flutter3</button></p>
 <!-- 內建放入的 Dart 原始碼 -->
 <p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
-<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823224&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;theme=dark" width="800"></iframe></p><br />w9-期中考 << <a href='w9-期中考.html'>Previous</a> <a href='w11-攝氏與華氏轉換程式.html'>Next</a> >> w11-攝氏與華氏轉換程式</div>
+<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823224&amp;gh_repo=cp2019bg6&amp;gh_path=downloads/dart_ex/cf&amp;theme=dark" width="800"></iframe></p><br />期末考進度 << <a href='期末考進度.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
