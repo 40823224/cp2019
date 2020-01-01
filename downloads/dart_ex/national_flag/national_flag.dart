@@ -8,72 +8,103 @@ int flag_h = 200;
 num circle_x = flag_w / 4;
 num circle_y = flag_h / 4;
 
+num circle_x_jan = flag_w / 2;
+num circle_y_jan = flag_h / 2;
+
+
 void main() {
   canvas = querySelector('#canvas');
   ctx = canvas.getContext('2d');
-  drawPoly(ctx);
 
-  //drawROC(ctx);
+  drawROC(ctx);
   querySelector("#roc").onClick.listen((e) => drawROC(ctx));
   querySelector("#usa").onClick.listen((e) => drawUSA(ctx));
-  querySelector("#poly").onClick.listen((e) => drawPoly(ctx));
+  querySelector("#jpn").onClick.listen((e) => drawJPN(ctx));
+  querySelector("#fra").onClick.listen((e) => drawFRA(ctx));
+  querySelector("#rus").onClick.listen((e) => drawRUS(ctx));
+  querySelector("#uk").onClick.listen((e) => drawUK(ctx));
+  querySelector("#deu").onClick.listen((e) => drawDEU(ctx));
+  querySelector("#nld").onClick.listen((e) => drawNLD(ctx));
   querySelector("#button").onClick.listen((e) => clearCanvas());
+}
+void drawJPN(ctx){
+  ctx.clearRect(0, 0, flag_w, flag_h);
+  //白色
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  // 紅心
+  ctx.beginPath();
+  ctx.arc(circle_x_jan, circle_y_jan, flag_w / 6, 0, Math.pi * 2, true);
+  ctx.closePath();
+  // 填色設為紅色
+  ctx.fillStyle = 'rgb(200,0,0)';
+  ctx.fill();
+}
+void drawFRA(ctx){
+  ctx.clearRect(0, 0, flag_w, flag_h);
+  // 紅色  
+  ctx.fillStyle = 'rgb(200,0,0)';
+  ctx.fillRect(200, 0, flag_w/3, flag_h);
+  //白色
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(100, 0, flag_w/3, flag_h);
+  //藍色
+  ctx.fillStyle = 'rgb(0,0,100)';
+  ctx.fillRect(0, 0, flag_w/3, flag_h);
+}
+void drawRUS(ctx){
+  ctx.clearRect(0, 0, flag_w, flag_h);
+  // 紅色  
+  ctx.fillStyle = 'rgb(200,0,0)';
+  ctx.fillRect(0, 133.33, flag_w, flag_h/3);
+  //白色
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(0, 0, flag_w, flag_h/3);
+  //藍色
+  ctx.fillStyle = 'rgb(0,0,100)';
+  ctx.fillRect(0, 66.67, flag_w, flag_h/3);
+}
+void drawUK(ctx){
+  ctx.clearRect(0, 0, flag_w, flag_h);
+  //藍色
+  ctx.fillStyle = 'rgb(0,0,100)';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  //白色
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(120, 0, flag_w/5, flag_h);
+  ctx.fillRect(0, 66.67, flag_w, flag_h/3);
+  //紅色
+  ctx.fillStyle = 'rgb(200,0,0)';
+  ctx.fillRect(131.5, 0, flag_w/8, flag_h);
+  ctx.fillRect(0, 82.5, flag_w, flag_h/6);
   
 }
-
-// Defines a path for any regular polygon with the specified number of sides and radius,
-// centered on the provide x and y coordinates.
-// optional parameters: startAngle and anticlockwise
-
-polygon(ctx, x, y, radius, sides, startAngle, anticlockwise) {
-  // 宣告 output 變數資料型別為 List 且起始值為空數列
-  // https://api.dartlang.org/stable/2.7.0/dart-core/List-class.html
-  // 因為所設定的 output 為 growable list, 因此必須利用 new List() 或 [] 給定起始值
-  List output = [];
-  if (sides < 3) return;
-  var a = (Math.pi * 2) / sides;
-  a = anticlockwise ? -a : a;
-  // 儲存目前的繪圖狀態
-  // https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/save
-  ctx.save();
-  // 以下開始進入新的繪圖座標系統
-  // 平移至圓心
-  ctx.translate(x, y);
-  // 轉至 startAngle, 原始座標系 x 向右為正, y 向下為正, 因此 z 軸指向電腦螢幕為正
-  ctx.rotate(startAngle);
-  // 將畫筆移動到 x=radius, y=0 的位置
-  ctx.moveTo(radius, 0);
-  // 此時將繪圖起點座標數列存入 output 數列
-  output.add([radius, 0]);
-  for (var i = 1; i < sides; i++) {
-    ctx.lineTo(radius * Math.cos(a * i), radius * Math.sin(a * i));
-    output.add([radius * Math.cos(a * i), radius * Math.sin(a * i)]);
-  }
-  print(output);
-  print("");
-  ctx.closePath();
-  ctx.restore();
+void drawDEU(ctx){
+  ctx.clearRect(0, 0, flag_w, flag_h);
+  // 紅色  
+  ctx.fillStyle = 'rgb(210,0,0)';
+  ctx.fillRect(0, 66.67, flag_w, flag_h/3);
+  //黃色
+  ctx.fillStyle = 'rgb(260,180,0)';
+  ctx.fillRect(0, 133.33, flag_w, flag_h/3);
+  //黑色
+  ctx.fillStyle = 'rgb(0,0,0)';
+  ctx.fillRect(0, 0, flag_w, flag_h/3);
+}
+void drawNLD(ctx){
+  ctx.clearRect(0, 0, flag_w, flag_h);
+  // 紅色  
+  ctx.fillStyle = 'rgb(200,0,0)';
+  ctx.fillRect(0, 0, flag_w, flag_h/3);
+  //白色
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(0, 66.67, flag_w, flag_h/3);
+  //藍色
+  ctx.fillStyle = 'rgb(0,0,100)';
+  ctx.fillRect(0, 133.33, flag_w, flag_h/3);
 }
 
-
-drawPoly(ctx){
-  ctx.beginPath();
-  // 大五角形
-  int bigR = 90;
-  polygon(ctx, 150, 100, bigR, 5, -Math.pi / 2, false);
-  // 中間小五角形
-  // deg 用於將角度轉為徑度
-  num deg = Math.pi/180;
-  // 利用 Solvespace 繪圖輔助計算中間五邊形的各點位置
-  int smallR = (bigR * Math.cos(72*deg) / Math.cos(36*deg)).toInt();
-  polygon(ctx, 150, 100, smallR, 5, Math.pi / 2, false);
-  //ctx.fillStyle = "rgba(227,11,93,0.75)";
-  //ctx.fill();
-  ctx.strokeStyle = 'rgb(255, 0, 0)';
-  ctx.stroke();
-}
-
-void drawUSA(ctx) {
+void drawUSA(ctx){
   // 紅色
   ctx.clearRect(0, 0, flag_w, flag_h);
   ctx.fillStyle = 'rgb(200,0,0)';
@@ -108,9 +139,8 @@ void drawUSA(ctx) {
    ctx.strokeText("✮      ✮      ✮      ✮      ✮", flag_w / 14, b*8);
    ctx.strokeText("✮      ✮      ✮      ✮      ✮      ✮", flag_w / 36, b*9);
 }
-}
 
-void drawROC(ctx) {
+void drawROC(ctx){
   // 先畫滿地紅
   ctx.clearRect(0, 0, flag_w, flag_h);
   ctx.fillStyle = 'rgb(255, 0, 0)';
@@ -152,6 +182,6 @@ void drawROC(ctx) {
   ctx.fill();
 }
 
-void clearCanvas() {
+void clearCanvas(){
   ctx.clearRect(0, 0, flag_w, flag_h);
 }

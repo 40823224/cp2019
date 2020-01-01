@@ -25,7 +25,7 @@ void drawUSA(ctx){
   ctx.fillRect(0, 0, flag_w, flag_h);
   //藍色
   ctx.fillStyle='rgb(0,0,100)';
-  ctx.fillRect(0, 0, flag_w/2, flag_h/1.857);
+  ctx.fillRect(0, 0, flag_w/2, flag_h/1.8);
   //白色
   ctx.fillStyle='rgb(255,255,255)';
   ctx.fillRect(flag_w/2,flag_h/13,flag_w,flag_h/13);

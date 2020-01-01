@@ -149,19 +149,46 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content">w7-利用 for 迴圈與函式定義呼叫解常微分方程式 << <a href='w7-利用 for 迴圈與函式定義呼叫解常微分方程式.html'>Previous</a> <a href='w9-期中考.html'>Next</a> >> w9-期中考<br /><h1>w8- Pelican Blog 網誌設定並加入 disqus 討論系統</h1>
-<p>1.利用 launchLeo.py 編輯 pelican blog 的網誌設定</p>
-<p><img alt="" height="417" src="./../images/8-1.PNG" width="500"/></p>
-<p>2.去 Disqus 註冊並獲取短名稱，再回到 <span>launchLeo.py 編輯</span></p>
-<p><img alt="" height="237" src="./../images/8-4.PNG" width="500"/></p>
-<p>3.網誌獲得了留言回覆的功能</p>
-<p><img alt="" height="455" src="./../images/8-2.PNG" width="500"/></p>
-<p>4.在 <span>launchLeo.py 新增嵌入 Dartpad 的節點，新增到網誌上</span></p>
-<p><img alt="" height="271" src="./../images/8.PNG" width="500"/></p>
-<p></p>
-<p>5.成功將 Dart 程式嵌入到網誌</p>
-<p><img alt="" height="270" src="./../images/8-3.PNG" width="500"/></p>
-<br />w7-利用 for 迴圈與函式定義呼叫解常微分方程式 << <a href='w7-利用 for 迴圈與函式定義呼叫解常微分方程式.html'>Previous</a> <a href='w9-期中考.html'>Next</a> >> w9-期中考</div>
+    <div id="tipue_search_content">W16 查驗考試 << <a href='W16 查驗考試.html'>Previous</a> <br /><h1>W17 考試</h1>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823224&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823224&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function getFlutter(dirname){
+    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823224&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 800 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
+<!-- 取 Dart 程式的按鈕 -->
+<h4>純 Dart 程式</h4>
+<p><button onclick="getDart('weight')">重量</button></p>
+<h4>Html 程式</h4>
+<p><button onclick="getHtmlDart('weight_change')">重量轉換</button></p>
+<p><button onclick="getHtmlDart('national_flag')">各國國旗</button><!-- 內建放入的 Dart 原始碼 --></p>
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823224&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/weight&amp;theme=dark" width="800"></iframe></p>
+<p><canvas height="200" id="canvas" width="300"></canvas></p>
+<p><button id="button">Clear Canvas</button> <button id="roc">Draw ROC</button> <button id="jpn">Draw JPN</button> <button id="fra">Draw FRA</button> <button id="rus">Draw RUS</button> <button id="usa">Draw USA</button> <button id="uk">Draw UK</button> <button id="deu">Draw DEU</button> <button id="nld">Draw NLD</button></p>
+<p>
+<script src="https://40823224.github.io/cp2019/downloads/dart_ex/roc_flag/roc.js"></script>
+</p><br />W16 查驗考試 << <a href='W16 查驗考試.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">

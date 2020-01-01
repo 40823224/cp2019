@@ -138,7 +138,7 @@ init_mathjax();
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li class='has-children'><a href='期中考進度.html'>期中考進度</a><ul class='dropdown'><li><a href='w2-網路架構、倉儲設定與網站編輯.html'>w2-網路架構、倉儲設定與網站編輯</a><li><a href='w3-在 Dartpad 引入 Git 中的 Dart 程式.html'>w3-在 Dartpad 引入 Git 中的 Dart 程式</a><li><a href='w4-在 CMSiMDE 頁面中加入圖片.html'>w4-在 CMSiMDE 頁面中加入圖片</a><li><a href='w6- for 迴圈程式範例、放入倉儲及 button 標註.html'>w6- for 迴圈程式範例、放入倉儲及 button 標註</a><li><a href='w7-利用 for 迴圈與函式定義呼叫解常微分方程式.html'>w7-利用 for 迴圈與函式定義呼叫解常微分方程式</a><li><a href='w8- Pelican Blog 網誌設定並加入 disqus 討論系統.html'>w8- Pelican Blog 網誌設定並加入 disqus 討論系統</a><li><a href='w9-期中考.html'>w9-期中考</a></li></ul><li class='has-children'><a href='期末考進度.html'>期末考進度</a><ul class='dropdown'><li><a href='w10-開始使用 SSH 推送.html'>w10-開始使用 SSH 推送</a><li><a href='w11-使用 git sparse checkout 取得倉儲內容.html'>w11-使用 git sparse checkout 取得倉儲內容</a><li><a href='w14- 將 Dart 程式轉為 Javascript 放入頁面.html'>w14- 將 Dart 程式轉為 Javascript 放入頁面</a><li><a href='w15-程式流程圖繪製與匯出.html'>w15-程式流程圖繪製與匯出</a></li></ul><li><a href='課程筆記.html'>課程筆記</a><li><a href='W16 查驗考試.html'>W16 查驗考試</a></li>
+                     <li><a href='About.html'>About</a><li class='has-children'><a href='期中考進度.html'>期中考進度</a><ul class='dropdown'><li><a href='w2-網路架構、倉儲設定與網站編輯.html'>w2-網路架構、倉儲設定與網站編輯</a><li><a href='w3-在 Dartpad 引入 Git 中的 Dart 程式.html'>w3-在 Dartpad 引入 Git 中的 Dart 程式</a><li><a href='w4-在 CMSiMDE 頁面中加入圖片.html'>w4-在 CMSiMDE 頁面中加入圖片</a><li><a href='w6- for 迴圈程式範例、放入倉儲及 button 標註.html'>w6- for 迴圈程式範例、放入倉儲及 button 標註</a><li><a href='w7-利用 for 迴圈與函式定義呼叫解常微分方程式.html'>w7-利用 for 迴圈與函式定義呼叫解常微分方程式</a><li><a href='w8- Pelican Blog 網誌設定並加入 disqus 討論系統.html'>w8- Pelican Blog 網誌設定並加入 disqus 討論系統</a><li><a href='w9-期中考.html'>w9-期中考</a></li></ul><li class='has-children'><a href='期末考進度.html'>期末考進度</a><ul class='dropdown'><li><a href='w10-開始使用 SSH 推送.html'>w10-開始使用 SSH 推送</a><li><a href='w11-使用 git sparse checkout 取得倉儲內容.html'>w11-使用 git sparse checkout 取得倉儲內容</a><li><a href='w14- 將 Dart 程式轉為 Javascript 放入頁面.html'>w14- 將 Dart 程式轉為 Javascript 放入頁面</a><li><a href='w15-程式流程圖繪製與匯出.html'>w15-程式流程圖繪製與匯出</a></li></ul><li><a href='課程筆記.html'>課程筆記</a><li><a href='W16 查驗考試.html'>W16 查驗考試</a><li><a href='W17 考試.html'>W17 考試</a></li>
                       </ul>
                 </nav>
               </div>
@@ -149,7 +149,7 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content">課程筆記 << <a href='課程筆記.html'>Previous</a> <br /><h1>W16 查驗考試</h1>
+    <div id="tipue_search_content">課程筆記 << <a href='課程筆記.html'>Previous</a> <a href='W17 考試.html'>Next</a> >> W17 考試<br /><h1>W16 查驗考試</h1>
 <script>
 function getDart(dirname){
     source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823224&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
@@ -187,11 +187,12 @@ document.getElementById("iframe").height = 600 ;
 <p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
 <p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823224&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/temp1&amp;theme=dark" width="800"></iframe></p>
 <p><canvas height="200" id="canvas" width="300"></canvas></p>
-<script src="https://40823224.github.io/cp2019/downloads/dart_ex/roc_flag/roc_flag.js"></script>
+<p><button id="button">Clear Canvas</button> <button id="roc">Draw ROC</button> <button id="usa">Draw USA</button></p>
+<script src="https://40823224.github.io/cp2019/downloads/dart_ex/roc_flag/roc.js"></script>
 <p>亂數分組</p>
 <p>學員名單 URL: <input id="studListUrl" size="50" type="text" value="https://mde.tw/cp2019/downloads/2019fall_cp_1b_list.txt"/><br/> 每組人數: <input id="grpNum" size="3" type="text" value="10"/><br/> <input id="submit" type="submit" value="開始分組"/><br/> <textarea cols="80" id="output" rows="10"></textarea></p>
 <script src="https://40823224.github.io/cp2019/downloads/dart_ex/random_grouping/random_grouping.js"></script>
-<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/hZAa_F-xlak" width="560"></iframe></p><br />課程筆記 << <a href='課程筆記.html'>Previous</a> </div>
+<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/hZAa_F-xlak" width="560"></iframe></p><br />課程筆記 << <a href='課程筆記.html'>Previous</a> <a href='W17 考試.html'>Next</a> >> W17 考試</div>
         
     <!-- footer -->
       <div class="container">
