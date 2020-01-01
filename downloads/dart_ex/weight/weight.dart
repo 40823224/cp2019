@@ -28,7 +28,7 @@ main() {
    
     number = int.parse(number);
    
-    if (type == "LB"){
+    if (type == "L"){
      
       print("$number 英磅 =  ${LBtoKG(number)} 公斤");
     }else{
