@@ -5,6 +5,10 @@ CanvasElement canvas;
 CanvasRenderingContext2D ctx;
 int flag_w = 300;
 int flag_h = 200;
+
+num flag_w_uk = 300;
+num flag_h_uk = 150;
+
 num circle_x = flag_w / 4;
 num circle_y = flag_h / 4;
 
@@ -66,18 +70,68 @@ void drawRUS(ctx){
 }
 void drawUK(ctx){
   ctx.clearRect(0, 0, flag_w, flag_h);
-  //藍色
+  //填藍底
   ctx.fillStyle = 'rgb(0,0,100)';
-  ctx.fillRect(0, 0, flag_w, flag_h);
-  //白色
+  ctx.fillRect(0, 0, flag_w_uk, flag_h_uk);
+  //白交叉線
+  ctx.strokeStyle="#fff";
+  ctx.lineWidth = 30;
+  ctx.beginPath();
+  ctx.moveTo(0,0);
+  ctx.lineTo(300,150);
+  ctx.moveTo(0,150);
+  ctx.lineTo(300,0);
+  ctx.stroke();
+  //左下紅線
+  ctx.strokeStyle="rgb(200,0,0)";
+  ctx.lineWidth = 10;
+  ctx.beginPath();
+  ctx.moveTo(0,155);
+  ctx.lineTo(150,80);
+  ctx.stroke();
+  //右上紅線
+  ctx.strokeStyle="rgb(200,0,0)";
+  ctx.lineWidth = 10;
+  ctx.beginPath();
+  ctx.moveTo(150,70);
+  ctx.lineTo(295,-5);
+  ctx.stroke();
+  //右下紅線
+  ctx.strokeStyle="rgb(200,0,0)";
+  ctx.lineWidth = 10;
+  ctx.beginPath();
+  ctx.moveTo(150,70);
+  ctx.lineTo(305,145);
+  ctx.stroke();
+  //左上紅線
+  ctx.strokeStyle="rgb(200,0,0)";
+  ctx.lineWidth = 10;
+  ctx.beginPath();
+  ctx.moveTo(150,80);
+  ctx.lineTo(-5,5);
+  ctx.stroke();
+  //白橫線與直線
+  ctx.strokeStyle="#fff";
+  ctx.lineWidth = 50;
+  ctx.beginPath();
+  ctx.moveTo(0,75);
+  ctx.lineTo(300,75);
+  ctx.moveTo(150,0);
+  ctx.lineTo(150,150);
+  ctx.stroke();
+  //紅線
+  ctx.strokeStyle="rgb(200,0,0)";
+  ctx.lineWidth = 30;
+  ctx.beginPath();
+  ctx.moveTo(0,75);
+  ctx.lineTo(300,75);
+  ctx.moveTo(150,0);
+  ctx.lineTo(150,150);
+  ctx.stroke();
+  //白底
   ctx.fillStyle = '#fff';
-  ctx.fillRect(120, 0, flag_w/5, flag_h);
-  ctx.fillRect(0, 66.67, flag_w, flag_h/3);
-  //紅色
-  ctx.fillStyle = 'rgb(200,0,0)';
-  ctx.fillRect(131.5, 0, flag_w/8, flag_h);
-  ctx.fillRect(0, 82.5, flag_w, flag_h/6);
-  
+  ctx.fillRect(0, 150, flag_w, flag_h/4);
+    
 }
 void drawDEU(ctx){
   ctx.clearRect(0, 0, flag_w, flag_h);
@@ -181,6 +235,63 @@ void drawROC(ctx){
   ctx.fillStyle = '#fff';
   ctx.fill();
 }
+
+void drawCUB(ctx){
+  ctx.clearRect(0, 0, flag_w, flag_h);
+  //白色
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  // 紅心
+  ctx.beginPath();
+  ctx.arc(circle_x_jan, circle_y_jan, flag_w / 6, 0, Math.pi * 2, true);
+  ctx.closePath();
+  // 填色設為紅色
+  ctx.fillStyle = 'rgb(200,0,0)';
+  ctx.fill();
+}
+
+void drawCHI(ctx){
+  ctx.clearRect(0, 0, flag_w, flag_h);
+  //白色
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  // 紅心
+  ctx.beginPath();
+  ctx.arc(circle_x_jan, circle_y_jan, flag_w / 6, 0, Math.pi * 2, true);
+  ctx.closePath();
+  // 填色設為紅色
+  ctx.fillStyle = 'rgb(200,0,0)';
+  ctx.fill();
+}
+
+void drawSKN(ctx){
+  ctx.clearRect(0, 0, flag_w, flag_h);
+  //白色
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  // 紅心
+  ctx.beginPath();
+  ctx.arc(circle_x_jan, circle_y_jan, flag_w / 6, 0, Math.pi * 2, true);
+  ctx.closePath();
+  // 填色設為紅色
+  ctx.fillStyle = 'rgb(200,0,0)';
+  ctx.fill();
+}
+
+void drawCAN(ctx){
+  ctx.clearRect(0, 0, flag_w, flag_h);
+  //白色
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  // 紅心
+  ctx.beginPath();
+  ctx.arc(circle_x_jan, circle_y_jan, flag_w / 6, 0, Math.pi * 2, true);
+  ctx.closePath();
+  // 填色設為紅色
+  ctx.fillStyle = 'rgb(200,0,0)';
+  ctx.fill();
+}
+
 
 void clearCanvas(){
   ctx.clearRect(0, 0, flag_w, flag_h);
