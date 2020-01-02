@@ -1,15 +1,12 @@
 import "dart:html";
 
-
-LBtoKG(num lb){
-return lb*0.45359237;
+lbtokg(num lb){
+return lb*0.454;
 }
 
-
-KGtoLB(num kg){
-return kg*2.20462262;
+kgtolb(num kg){
+return kg*2.205;
 }
-
 
 main() {
     
@@ -17,27 +14,23 @@ main() {
     querySelector("#submit").onClick.listen((e) => convert(tempInput.value));
 }
 
-convert(String data){
- 
-  int len;
-  
-  var type;
-  
+convert(String data){ 
+  int len;  
+  var type;  
   var number;
   
   LabelElement output = querySelector("#output");
   
-  len = data.length;
-  
-  type = data[len-1];
-  number = data.substring(0, len-1);
+  len = data.length;  
+  type = data[len-2];
+  number = data.substring(0, len-2);
   
   number = int.parse(number);
   if (type == "L" || type == "l"){
-     output.innerHtml = " $number 英磅 =  ${LBtoKG(number).toStringAsFixed(2)} 公斤";
+     output.innerHtml = " $number 英磅 =  ${lbtokg(number).toStringAsFixed(2)} 公斤";
   } else if ((type == "K" || type == "k")){
-     output.innerHtml = " $number 公斤 =  ${KGtoLB(number).toStringAsFixed(2)} 英磅";
+     output.innerHtml = " $number 公斤 =  ${kgtolb(number).toStringAsFixed(2)} 英磅";
   } else {
-     output.innerHtml = "請輸入數字加上 L 或 K!";
+     output.innerHtml = "請輸入數字加上 LB 或 KG!";
   }
 } 
