@@ -236,63 +236,6 @@ void drawROC(ctx){
   ctx.fill();
 }
 
-void drawCUB(ctx){
-  ctx.clearRect(0, 0, flag_w, flag_h);
-  //白色
-  ctx.fillStyle = '#fff';
-  ctx.fillRect(0, 0, flag_w, flag_h);
-  // 紅心
-  ctx.beginPath();
-  ctx.arc(circle_x_jan, circle_y_jan, flag_w / 6, 0, Math.pi * 2, true);
-  ctx.closePath();
-  // 填色設為紅色
-  ctx.fillStyle = 'rgb(200,0,0)';
-  ctx.fill();
-}
-
-void drawCHI(ctx){
-  ctx.clearRect(0, 0, flag_w, flag_h);
-  //白色
-  ctx.fillStyle = '#fff';
-  ctx.fillRect(0, 0, flag_w, flag_h);
-  // 紅心
-  ctx.beginPath();
-  ctx.arc(circle_x_jan, circle_y_jan, flag_w / 6, 0, Math.pi * 2, true);
-  ctx.closePath();
-  // 填色設為紅色
-  ctx.fillStyle = 'rgb(200,0,0)';
-  ctx.fill();
-}
-
-void drawSKN(ctx){
-  ctx.clearRect(0, 0, flag_w, flag_h);
-  //白色
-  ctx.fillStyle = '#fff';
-  ctx.fillRect(0, 0, flag_w, flag_h);
-  // 紅心
-  ctx.beginPath();
-  ctx.arc(circle_x_jan, circle_y_jan, flag_w / 6, 0, Math.pi * 2, true);
-  ctx.closePath();
-  // 填色設為紅色
-  ctx.fillStyle = 'rgb(200,0,0)';
-  ctx.fill();
-}
-
-void drawCAN(ctx){
-  ctx.clearRect(0, 0, flag_w, flag_h);
-  //白色
-  ctx.fillStyle = '#fff';
-  ctx.fillRect(0, 0, flag_w, flag_h);
-  // 紅心
-  ctx.beginPath();
-  ctx.arc(circle_x_jan, circle_y_jan, flag_w / 6, 0, Math.pi * 2, true);
-  ctx.closePath();
-  // 填色設為紅色
-  ctx.fillStyle = 'rgb(200,0,0)';
-  ctx.fill();
-}
-
-
 void clearCanvas(){
   ctx.clearRect(0, 0, flag_w, flag_h);
 }
