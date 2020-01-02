@@ -1,9 +1,9 @@
 lbtokg(num lb){
-return lb*0.454;
+return lb*0.4536;
 }
 
 kgtolb(num kg){
-return kg*2.205;
+return kg*2.2046;
 }
 
 main() { 
@@ -19,11 +19,10 @@ main() {
     number = int.parse(number);
    
     if (type == "l"){     
-      print("$number 英磅 =  ${lbtokg(number)} 公斤");
+      print("$number 英磅 =  ${lbtokg(number).toStringAsFixed(4)} 公斤");
       
     }else{     
-      print("$number 公斤 =  ${kgtolb(number)} 英磅");
+      print("$number 公斤 =  ${kgtolb(number).toStringAsFixed(4)} 英磅");
     }
-      
+  }
   } 
-} 
