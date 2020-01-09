@@ -62,8 +62,8 @@
 
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
- # 課程筆記
-&lt;p&gt;&lt;img alt="" height="358" src="./../images/2.JPG" width="250"/&gt;&lt;/p&gt;
+ # 建立倉儲與推送方式筆記
+&lt;p&gt;&lt;img alt="" height="429.6" src="./../images/2.JPG" width="300"/&gt;&lt;/p&gt;
     &lt;/script&gt;
 &lt;/section&gt;
 
@@ -112,7 +112,7 @@
 
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-# 解常微分方程式結果
+# 解方程式後的結果
 &lt;p&gt;&lt;img alt="" height="311.25" src="./../images/4.PNG" width="600"/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" height="281.25" src="./../images/擷取.PNG" width="542.25"/&gt;&lt;/p&gt;
     &lt;/script&gt;
@@ -171,7 +171,7 @@
 
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-# 將 Dart 程式轉為 Javascript 放入頁面
+# 將程式轉為.JS檔後放入頁面
 &lt;img alt="" height="421.5" src="./../images/14.png" width="600"/&gt;
     &lt;/script&gt;
 &lt;/section&gt;
