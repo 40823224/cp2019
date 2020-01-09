@@ -60,6 +60,14 @@
     &lt;/script&gt;
 &lt;/section&gt;
 
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+ # 課程筆記
+&lt;p&gt;&lt;img alt="" height="358" src="./../images/2.JPG" width="250"/&gt;&lt;/p&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
 						
 &lt;/section&gt;</t>
 <t tx=".20200109095943.1">			
@@ -102,6 +110,22 @@
     &lt;/script&gt;
 &lt;/section&gt;
 
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# 解常微分方程式結果
+&lt;p&gt;&lt;img alt="" height="207.5" src="./../images/4.PNG" width="400"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="187.5" src="./../images/擷取.PNG" width="361.5"/&gt;&lt;/p&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# 期中進度影片
+&lt;iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/fnDXyVCPv6c" width="560"&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
 						
 &lt;/section&gt;</t>
 <t tx=".20200109100003.1">			
@@ -123,6 +147,15 @@
 &lt;iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823224&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/temp1&amp;amp;theme=dark" width="800"&gt;&lt;/iframe&gt;
     &lt;/script&gt;
 &lt;/section&gt;
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# 十二週任務影片
+&lt;iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/-Aijr3ypWX4" width="560"&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
 
 						
 &lt;/section&gt;</t>
