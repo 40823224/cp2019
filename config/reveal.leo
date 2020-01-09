@@ -169,7 +169,6 @@
     &lt;/script&gt;
 &lt;/section&gt;
 
-&lt;section&gt;
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 # 將 Dart 程式轉為 Javascript 放入頁面
@@ -177,7 +176,6 @@
     &lt;/script&gt;
 &lt;/section&gt;
 
-&lt;section&gt;
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 # Html 流程圖
