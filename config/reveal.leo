@@ -113,15 +113,15 @@
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 # 解常微分方程式結果
-&lt;p&gt;&lt;img alt="" height="207.5" src="./../images/4.PNG" width="400"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" height="187.5" src="./../images/擷取.PNG" width="361.5"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="311.25" src="./../images/4.PNG" width="600"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="281.25" src="./../images/擷取.PNG" width="542.25"/&gt;&lt;/p&gt;
     &lt;/script&gt;
 &lt;/section&gt;
 
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 # 期中進度影片
-&lt;iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/fnDXyVCPv6c" width="560"&gt;&lt;/iframe&gt;
+&lt;iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="378" src="https://www.youtube.com/embed/fnDXyVCPv6c" width="672"&gt;&lt;/iframe&gt;
     &lt;/script&gt;
 &lt;/section&gt;
 
@@ -151,7 +151,7 @@
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 # 十二週任務影片
-&lt;iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/-Aijr3ypWX4" width="560"&gt;&lt;/iframe&gt;
+&lt;iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="378" src="https://www.youtube.com/embed/-Aijr3ypWX4" width="672"&gt;&lt;/iframe&gt;
     &lt;/script&gt;
 &lt;/section&gt;
 
@@ -168,6 +168,23 @@
 &lt;h5&gt;程式流程圖繪製與匯出&lt;/h5&gt;
     &lt;/script&gt;
 &lt;/section&gt;
+
+&lt;section&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# 將 Dart 程式轉為 Javascript 放入頁面
+&lt;img alt="" height="421.5" src="./../images/14.png" width="600"/&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# Html 流程圖
+&lt;img alt="" height="421.5" src="./../images/15.png" width="600"/&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
 
 						
 &lt;/section&gt;</t>
@@ -219,7 +236,7 @@
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 # 心得
-。
+很開心可以接觸到最新的 Dart，期望未來配合輔助設計、手機等等，擴大自己的專業領域。但目前仍有許多不足的地方，還需要再更努力。
     &lt;/script&gt;
 &lt;/section&gt;
 
