@@ -134,7 +134,7 @@
     &lt;script type="text/template"&gt;
 # W10~W12
 &lt;h5&gt;開始分組作業&lt;/h5&gt;
-&lt;h5&gt;開始使用 SSH 推送&lt;/h5&gt;
+&lt;h5&gt;開始使用 SSH 協定，並使用GitExtensions推送&lt;/h5&gt;
 &lt;h5&gt;使用 git sparse checkout 取得倉儲內容&lt;/h5&gt;
 &lt;h5&gt;在個人及小組 Blog 嵌入介紹溫度轉換程式的影片&lt;/h5&gt;
     &lt;/script&gt;
@@ -179,7 +179,7 @@
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 # Html 流程圖
-&lt;img alt="" height="421.5" src="./../images/15.png" width="600"/&gt;
+&lt;img alt="" height="450" src="./../images/15.png" width="600"/&gt;
     &lt;/script&gt;
 &lt;/section&gt;
 
@@ -234,7 +234,9 @@
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 # 心得
-很開心可以接觸到最新的 Dart，期望未來配合輔助設計、手機等等，擴大自己的專業領域。但目前仍有許多不足的地方，還需要再更努力。
+雖然一開始學習程式與架設網頁很吃力，還好與同學們討論與切磋後慢慢的跟上進度。
+很開心可以接觸到最新的 Dart，學習了一些基本的程式，以及學會修改網頁原始碼。期望未來配合輔助設計、手機APP等等，擴大自己的視野與能力。
+但目前在程式與網頁架構等領域才剛開始學習，仍有許多不足的地方，還需要再更加努力。
     &lt;/script&gt;
 &lt;/section&gt;
 
@@ -247,7 +249,7 @@
 
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40823224](https://github.com/40823224/cp2019)
 &lt;/small&gt;
 
 [40823224 網誌](https://40823224.github.io/cp2019/blog/index.html)
@@ -263,7 +265,7 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 
 </t>
-<t tx="leo.20180902120523.12">## 課程目錄
+<t tx="leo.20180902120523.12">## 目錄
 * [W1~W3](https://40823224.github.io/cp2019/reveal/index.html#/2)
 * [W4~W6](https://40823224.github.io/cp2019/reveal/index.html#/3)
 * [W7~W9](https://40823224.github.io/cp2019/reveal/index.html#/4)
