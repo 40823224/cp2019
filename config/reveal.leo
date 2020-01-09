@@ -46,7 +46,7 @@
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 # W1~W3
-&lt;p align="left"&gt;網路架構、倉儲設定、近端網站編輯&lt;/p&gt;
+&lt;h5&gt;網路架構、倉儲設定、近端網站編輯&lt;/h5&gt;
 &lt;h5&gt;將近端網站 add、commit、push 至遠端&lt;/h5&gt;
 &lt;h5&gt;在 Dartpad 引入 Git 中的 Dart 程式&lt;/h5&gt;
     &lt;/script&gt;
