@@ -131,7 +131,7 @@
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 # W13~W15
-&lt;h5&gt;將 Dart 程式利用 dart2js 轉為 Javascript 放入頁面&lt;/h5&gt;
+&lt;h5&gt;將 Dart 程式用 dart2js 轉為 Javascript 放入頁面&lt;/h5&gt;
 &lt;h5&gt;程式流程圖繪製與匯出&lt;/h5&gt;
     &lt;/script&gt;
 &lt;/section&gt;
@@ -144,7 +144,7 @@
     &lt;script type="text/template"&gt;
 # W16~W17
 &lt;h5&gt;查驗考試，將 Dart 程式轉為 Javascript 放入頁面，錄製程式設計流程說明與操作影片&lt;/h5&gt;
-&lt;h5&gt;w16-用亂數分組程式進行甲乙2班的分組、繪製美國國旗&lt;/h5&gt;
+&lt;h5&gt;w16-亂數分組進行甲乙班分組、繪製美國國旗&lt;/h5&gt;
 &lt;h5&gt;w17-撰寫重量轉換程式、繪製各國國旗&lt;/h5&gt;
     &lt;/script&gt;
 &lt;/section&gt;
