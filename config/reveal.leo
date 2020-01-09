@@ -24,16 +24,14 @@
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
-</v>
-<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
-<v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
-</v>
-<v t="leo.20180902120523.18"><vh>導入影片</vh>
-<v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
-</v>
+<v t="leo.20180902120523.13"><vh>課程內容</vh>
+<v t=".20200109095903.1"><vh>w1~w3</vh></v>
+<v t=".20200109095943.1"><vh>w4~w6</vh></v>
+<v t=".20200109095957.1"><vh>w7~w9</vh></v>
+<v t=".20200109100003.1"><vh>w10~w12</vh></v>
+<v t=".20200109100013.1"><vh>w13~w15</vh></v>
+<v t=".20200109100020.1"><vh>w16~w17</vh></v>
+<v t=".20200109100130.1"><vh>心得</vh></v>
 </v>
 </v>
 </v>
@@ -44,8 +42,160 @@
 </v>
 </vnodes>
 <tnodes>
+<t tx=".20200109095903.1">&lt;section&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# W1~W3
+&lt;h5&gt;網路架構、倉儲設定、近端網站編輯(動態、靜態網站)&lt;/h5&gt;
+&lt;h5&gt;將近端網站 add、commit、push 至遠端&lt;/h5&gt;
+&lt;h5&gt;在 Dartpad 引入 Git 中的 Dart 程式&lt;/h5&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# Hello
+&lt;iframe height="600" src="https://dartpad.dev/embed-inline.html?id=e61d968d2a8d5f5c374a55e8f9e57248" width="800"&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+						
+&lt;/section&gt;</t>
+<t tx=".20200109095943.1">			
+&lt;section&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# W4~W6
+&lt;h5&gt;在 CMSiMDE 頁面中加入圖片&lt;/h5&gt;
+&lt;h5&gt;for 迴圈程式範例&lt;/h5&gt;
+&lt;h5&gt;將 Dart 程式放入倉儲及 button 標註&lt;/h5&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# For
+&lt;iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823224&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/for&amp;amp;theme=dark" width="800"&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+						
+&lt;/section&gt;</t>
+<t tx=".20200109095957.1">			
+&lt;section&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# W7~W9
+&lt;h5&gt;利用 for 迴圈與函式定義呼叫解常微分方程式&lt;/h5&gt;
+&lt;h5&gt;Pelican Blog 網誌設定並加入 disqus 討論系統&lt;/h5&gt;
+&lt;h5&gt;w9 期中考，錄製影片展示進度&lt;/h5&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# 解常微分方程式
+&lt;iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823224&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;amp;theme=dark" width="800"&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+						
+&lt;/section&gt;</t>
+<t tx=".20200109100003.1">			
+&lt;section&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# W10~W12
+&lt;h5&gt;開始分組作業&lt;/h5&gt;
+&lt;h5&gt;開始使用 SSH 推送&lt;/h5&gt;
+&lt;h5&gt;使用 git sparse checkout 取得倉儲內容&lt;/h5&gt;
+&lt;h5&gt;在個人及小組 Blog 嵌入介紹溫度轉換程式的影片&lt;/h5&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# 溫度轉換
+&lt;iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823224&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/temp1&amp;amp;theme=dark" width="800"&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+						
+&lt;/section&gt;</t>
+<t tx=".20200109100013.1">			
+&lt;section&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# W13~W15
+&lt;h5&gt;將 Dart 程式利用 dart2js 轉為 Javascript 放入頁面&lt;/h5&gt;
+&lt;h5&gt;程式流程圖繪製與匯出&lt;/h5&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+						
+&lt;/section&gt;</t>
+<t tx=".20200109100020.1">			
+&lt;section&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# W16~W17
+&lt;h5&gt;查驗考試，將 Dart 程式轉為 Javascript 放入頁面，錄製程式設計流程說明與操作影片&lt;/h5&gt;
+&lt;h5&gt;w16-用亂數分組程式進行甲乙2班的分組、繪製美國國旗&lt;/h5&gt;
+&lt;h5&gt;w17-撰寫重量轉換程式、繪製各國國旗&lt;/h5&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# 亂數分組
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823224&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/random_grouping&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# 溫度轉換
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823224&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/temp2&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+ &lt;/script&gt;
+&lt;/section&gt;
+
+# 重量轉換
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823224&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/weight_change&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# 各國國旗
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823224&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/national_flag&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+ &lt;/script&gt;
+&lt;/section&gt;
+
+						
+&lt;/section&gt;
+
+</t>
+<t tx=".20200109100130.1">
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# 心得
+。
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+    &lt;/script&gt;
+&lt;/section&gt;</t>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## 40823224 個人網站內容
+<t tx="leo.20180902120523.10">## 40823224 個人網站內容管理
+
 
 &lt;small&gt;
 Created by [KMOLab](http://lab.kmol.info/)
@@ -58,89 +208,22 @@ Created by [KMOLab](http://lab.kmol.info/)
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
+
     &lt;/script&gt;
 &lt;/section&gt;
 
 
-			
 </t>
 <t tx="leo.20180902120523.12">## 課程目錄
-
-* [亂數分組](https://40823224.github.io/cp2019/reveal/index.html#/2)
-* [重量轉換](https://40823224.github.io/cp2019/reveal/index.html#/2/1)
-* [溫度轉換](https://40823224.github.io/cp2019/reveal/index.html#/2/2)
-* [各國國旗](https://40823224.github.io/cp2019/reveal/index.html#/2/3)
-* [心得](https://40823224.github.io/cp2019/reveal/index.html#/3)
-
+* [W1~W3](https://40823224.github.io/cp2019/reveal/index.html#/2)
+* [W4~W6](https://40823224.github.io/cp2019/reveal/index.html#/3)
+* [W7~W9](https://40823224.github.io/cp2019/reveal/index.html#/4)
+* [W10~W12](https://40823224.github.io/cp2019/reveal/index.html#/5)
+* [W13~W15](https://40823224.github.io/cp2019/reveal/index.html#/6)
+* [W16~W17](https://40823224.github.io/cp2019/reveal/index.html#/7)
+* [心得](https://40823224.github.io/cp2019/reveal/index.html#/8)
 </t>
-<t tx="leo.20180902120523.13">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-# 心得
-。
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180902120523.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-# 亂數分組
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180902120523.15">&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823224&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/random_grouping&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-</t>
-<t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180902120523.17"># 溫度轉換
-&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823224&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/temp2&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-@language python
-</t>
-<t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180902120523.19"># 重量轉換
-&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823224&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/weight_change&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-# 各國國旗
-&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823224&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/national_flag&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+<t tx="leo.20180902120523.13"></t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
 @tabwidth -4
