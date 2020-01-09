@@ -31,7 +31,7 @@
 <v t=".20200109100003.1"><vh>w10~w12</vh></v>
 <v t=".20200109100013.1"><vh>w13~w15</vh></v>
 <v t=".20200109100020.1"><vh>w16~w17</vh></v>
-<v t=".20200109100130.1"><vh>心得</vh></v>
+<v t=".20200109100130.1"><vh>自評成績與心得</vh></v>
 </v>
 </v>
 </v>
@@ -155,6 +155,13 @@
     &lt;/script&gt;
 &lt;/section&gt;
 
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+# SSH 推送示範
+&lt;iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="378" src="https://www.youtube.com/embed/vMyRxtiXf5A" width="672"&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
 
 
 						
@@ -233,8 +240,9 @@
 <t tx=".20200109100130.1">
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-# 心得
-雖然一開始學習程式與架設網頁很吃力，還好與同學們討論與切磋後慢慢的跟上進度。
+# 自評成績與心得
+自評成績：75分
+雖然一開始學習程式與架設網頁很吃力，還好與同學們討論與切磋後慢慢的跟上進度。在期中被推選為組長，有與其他組組長討論如何準備作業，也拍攝了一些影片和步驟讓組員可以理解和跟上進度。
 很開心可以接觸到最新的 Dart，學習了一些基本的程式，以及學會修改網頁原始碼。期望未來配合輔助設計、手機APP等等，擴大自己的視野與能力。
 但目前在程式與網頁架構等領域才剛開始學習，仍有許多不足的地方，還需要再更加努力。
     &lt;/script&gt;
@@ -272,7 +280,7 @@ Created by [40823224](https://github.com/40823224/cp2019)
 * [W10~W12](https://40823224.github.io/cp2019/reveal/index.html#/5)
 * [W13~W15](https://40823224.github.io/cp2019/reveal/index.html#/6)
 * [W16~W17](https://40823224.github.io/cp2019/reveal/index.html#/7)
-* [心得](https://40823224.github.io/cp2019/reveal/index.html#/8)
+* [自評成績與心得](https://40823224.github.io/cp2019/reveal/index.html#/8)
 </t>
 <t tx="leo.20180902120523.13"></t>
 <t tx="leo.20180902120523.2"></t>
