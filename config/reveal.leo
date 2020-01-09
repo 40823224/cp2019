@@ -102,22 +102,6 @@
     &lt;/script&gt;
 &lt;/section&gt;
 
-
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-# 解常微分方程式
-&lt;iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823224&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;amp;theme=dark" width="800"&gt;&lt;/iframe&gt;
-    &lt;/script&gt;
-&lt;/section&gt;
-
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-# 解方程式後的結果
-&lt;p&gt;&lt;img alt="" height="311.25" src="./../images/4.PNG" width="600"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" height="281.25" src="./../images/擷取.PNG" width="542.25"/&gt;&lt;/p&gt;
-    &lt;/script&gt;
-&lt;/section&gt;
-
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 # 期中進度影片
